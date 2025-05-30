@@ -32060,7 +32060,7 @@ return s>=(q==null?-1:q)}}else return!1
 return p.w},
 a9i(a,b,c,d){var s=0,r=A.v(t.y),q,p,o,n,m,l,k,j,i,h,g
 var $async$a9i=A.q(function(e,f){if(e===1)return A.r(f,r)
-while(true)switch(s){case 0:g=$.BS().gzp().i(0,"GITHUB_TOKEN")
+while(true)switch(s){case 0:g=$.BS().gzp().i(0,"CLIENT_TOKEN")
 g.toString
 p="https://api.github.com/repos/dhikrama/fluttercms/contents/"+("posts/"+d+".md")
 o=B.b.gV(new A.ek(Date.now(),0,!1).aL2().split("T"))
@@ -49136,10 +49136,10 @@ A.SX.prototype={
 xN(a){return this.apG(a)},
 apG(a){var s=0,r=A.v(t.H),q=1,p=[],o,n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$xN=A.q(function(a0,a1){if(a0===1){p.push(a1)
-s=q}while(true)switch(s){case 0:c=$.BS().gzp().i(0,"GITHUB_CLIENT_ID")
+s=q}while(true)switch(s){case 0:c=$.BS().gzp().i(0,"CLIENT_ID")
 c.toString
 o=c
-c=$.BS().gzp().i(0,"GITHUB_CLIENT_SECRET")
+c=$.BS().gzp().i(0,"CLIENT_SECRET")
 c.toString
 n=c
 m="https://github.com/login/oauth/authorize?client_id="+A.l(o)+"&redirect_uri=myapp://callback&scope=repo user"
