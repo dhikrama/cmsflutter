@@ -32078,7 +32078,7 @@ j.m(0,"message",i?"Create new article: "+b:"Update article: "+b)
 j.m(0,"committer",A.Q(["name","dhikrama","email","dhikrama".toLowerCase()+"@example.com"],n,n))
 n=B.cs.ce('---\ntitle: "'+b+'"\nslug: "'+d+'"\ndate: "'+o+'"\n---\n\n'+c+"\n")
 j.m(0,"content",B.lC.gFg().ce(n))
-j.m(0,"branch","main")
+j.m(0,"branch","origin/main")
 if(!i)j.m(0,"sha",l)
 s=4
 return A.x(A.bl4(k,B.bQ.a3x(j,null),g),$async$a9i)
@@ -49205,7 +49205,7 @@ s=q}while(true)switch(s){case 0:q=3
 l=$.BS().gzp().i(0,"GITHUB_TOKEN")
 l.toString
 s=6
-return A.x(A.aic("dhikrama/blogspot",l),$async$Cv)
+return A.x(A.aic("dhikrama/cmsflutter",l),$async$Cv)
 case 6:n=b
 o.a8(new A.aAn(o,n))
 q=1
